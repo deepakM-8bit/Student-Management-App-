@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container{
+  border: 1px solid rgba(79, 79, 79, 0.499);
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+.container h2{
+  margin-top: 15px;
+}
+.container form{
+  border: 1px solid rgba(0, 0, 0, 0.223);
+  background: #fcfffe;
+  border-radius: 12px;
+  margin: 15px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  overflow-x: auto;
+}
+.container input{
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.264);
+  margin: 5px 10px;
+}
+
+.container button{
+  width: 70px;
+  align-self: center;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.400);
+  color: #fff;
+  background: #67a841d5;
+}
+
+.container button:hover{
+  background: #276801d5;
+}
+.user-table-container {
+  width: 90%;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border: 1px solid rgba(60, 60, 60, 0.293);
+  overflow-x: auto;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.user-table th, .user-table td {
+  padding: 12px 18px;
+  text-align: left;
+  border-bottom: 1px solid #cacaca;
+  border-right: 1px solid #cacaca;
+}
+
+.user-table th {
+  background-color: #f7f9fc;
+  color: #333;
+  font-weight: 600;
+}
+
+.user-table tr:hover {
+  background-color: #dde3f4;
+  transition: 0.2s;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  border: none;
+  outline: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.container .edit-btn {
+  background-color: #2e92fd;
+  color: white;
+}
+
+.container .edit-btn:hover {
+  background-color: #0062cc;
+}
+
+.container .delete-btn {
+  background-color: #ff4d4f;
+  color: white;
+}
+
+.container .delete-btn:hover {
+  background-color: #d9363e;
+}
+
